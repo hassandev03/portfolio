@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Projects</title>
+  </head>
+  <body>
+    <header>
+      <nav id="desktop-nav">
+        <div class="logo">Muhammad Hassan Raza</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html#skills">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Muhammad Hassan Raza</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li>
+              <a href="projects.html" onclick="toggleMenu()">Projects</a>
+            </li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="projects-main">
+      <section id="projects">
+        <p class="section-text-p1">Browse my</p>
+        <h1 class="title projects-title">Projects</h1>
+        <p class="section-text-p1 project-text-p1">
+          Here's a glimpse of what I've built! Dive in and explore!
+        </p>
+        <div class="projects-view">
+          <div class="details-container project-detail-container">
+            <div class="project-details">
+              <h2 class="project-sub-title">RecipeRealm</h2>
+              <p class="project-description">
+                RecipeRealm is a feature-rich Flutter recipe app powered by
+                Firebase for seamless backend integration, real-time streams,
+                and data persistence. Built using Riverpod for state management,
+                the app includes a carousel view for categories, a favorites
+                section, and multiple meal categories to explore. Users can sign
+                up or log in with email/password or Google authentication . The
+                app allows users to add, edit, and manage their own recipes,
+                while they can only view recipes added by others. The smooth UI
+                and real-time updates make recipe discovery and management
+                effortless!.
+              </p>
+            </div>
+            <img
+              class="project-img"
+              src="./assets/project-3.jpg"
+              alt="RecipeRealm Project"
+            />
+          </div>
+          <div class="details-container project-detail-container">
+            <div class="project-details">
+              <h2 class="project-sub-title">EzzyShop</h2>
+              <p class="project-description">
+                EzzyShop is a sleek and modern Flutter app powered by Provider
+                for smooth state management and real-time API integration using
+                HTTP methods. It features a dynamic product listing, a favorites
+                wishlist , and an intuitive shopping cart with a badge counter ,
+                ensuring a seamless shopping experience. The responsive grid
+                layout, elegant UI, and bottom navigation bar make browsing
+                effortless. With smooth animations and instant UI updates,
+                EzzyShop delivers a premium, user-friendly shopping experience.
+              </p>
+              <button
+                class="btn repo-btn"
+                onclick="window.open('https://github.com/hassandev03/basic-flutter-work/tree/main/shopping_app')"
+              >
+                Github
+              </button>
+            </div>
+            <img
+              class="project-img"
+              src="./assets/project-1.jpg"
+              alt="EzzyShop Project"
+            />
+          </div>
+          <div class="details-container project-detail-container">
+            <div class="project-details">
+              <h2 class="project-sub-title">ExpenseMate</h2>
+              <p class="project-description">
+                ExpenseMate is a powerful Flutter expense tracker that offers a
+                seamless budgeting experience with both light/dark mode UI, a
+                side drawer for easy navigation, and interactive charts to
+                visualize spending patterns. Users can efficiently manage their
+                expenses with a modal bottom sheet for quick entry, a favorites
+                feature for frequently tracked expenses, and categorized
+                spending with intuitive icons. The app's bottom navigation bar
+                provides smooth access to Home, Favorites, and Settings, making
+                financial management effortless and visually engaging.
+              </p>
+            </div>
+            <img
+              class="project-img"
+              src="./assets/project-2.jpg"
+              alt="ExpenseMate Project"
+            />
+          </div>
+          <div class="details-container project-detail-container">
+            <div class="project-details">
+              <h2 class="project-sub-title">Quiz App</h2>
+              <p class="project-description">
+                This is a basic Flutter quiz app featuring hardcoded Flutter and
+                Dart quizzes. It utilizes a ListView to display questions and
+                options efficiently, along with interactive buttons for user
+                responses. The app provides immediate feedback on correct and
+                incorrect answers, highlights the selected choices, and includes
+                a restart quiz option. The minimal yet intuitive UI ensures a
+                smooth experience for learning Flutter and Dart fundamentals.
+              </p>
+              <button
+                class="btn repo-btn"
+                onclick="window.open('https://github.com/hassandev03/flutter-work/tree/main/quiz_app')"
+              >
+                Github
+              </button>
+            </div>
+            <img
+              class="project-img"
+              src="./assets/project-4.jpg"
+              alt="Quiz App Project"
+            />
+          </div>
+          <div class="details-container project-detail-container">
+            <div class="project-details">
+              <h2 class="project-sub-title">CUBot</h2>
+              <p id="cubot-description" class="project-description">
+                CUBot is an innovative desktop chat assistant built with Java
+                Swing and AWT that effortlessly blends practical functionality
+                with engaging AI-driven conversation. It features a dynamic chat
+                interface where users can launch applications, open text files,
+                capture screenshots, and even check the weather or calculate BMI
+                through simple commands, all while receiving witty,
+                context-aware responses. By integrating APIs like OpenWeatherMap
+                and OpenAI Chat, CUBot not only streamlines everyday tasks but
+                also showcases a creative fusion of automation and intelligent
+                interaction.
+              </p>
+              <button
+                class="btn repo-btn"
+                onclick="window.open('https://github.com/hassandev03/java-work/tree/main/Projects/CUBot')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container project-detail-container">
+            <div class="project-details">
+              <h2 class="project-sub-title">TextWise</h2>
+              <p id="textwise-description"  class="project-description">
+                TextWise is a sophisticated text management system built in C++
+                that seamlessly integrates robust editing capabilities with
+                modern compression and encryption techniques. It allows users to
+                open, edit, and analyze text files—featuring word and character
+                counts, search and replace functions, and intuitive undo/redo
+                support via a custom stack—while also leveraging a Huffman
+                coding algorithm and min-heap structure for efficient file
+                compression and encryption. This creative blend of data
+                structures and user-centric design transforms routine text
+                processing into a secure and intelligent document management
+                experience.
+              </p>
+              <button
+                class="btn repo-btn"
+                onclick="window.open('https://github.com/hassandev03/cpp-work/tree/main/TextWise')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -3,6 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Muhammad Hassan Raza" />
+    <meta
+      name="description"
+      content="Portfolio of Muhammad Hassan Raza - Mobile App Developer specializing in Flutter, AI, and software development"
+    />
+    <meta
+      property="og:title"
+      content="Muhammad Hassan Raza - Mobile App Developer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio showcasing skills and projects in mobile app development, AI, and software engineering"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/profile-pic.jpg" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <title>Muhammad Hassan Raza</title>
@@ -15,7 +33,7 @@
           <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#skills">Skills</a></li>
+            <li><a href="about.html#skills">Skills</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -43,26 +61,59 @@
         </div>
       </nav>
     </header>
-    <section id="profile">
-      <div class="section-pic-container">
-        <img src="./assets/profile-pic.jpg" alt="Hassan" />
-      </div>
-      <div class="section-text">
+    <main>
+      <section id="profile-section">
+        <div id="section-pic-container">
+          <img src="./assets/profile-pic.jpg" alt="Hassan" />
+        </div>
         <div class="section-text">
-          <div class="section-text-p1">Hello, I'm</div>
+          <p class="section-text-p1">Hello, I'm</p>
           <h1 class="title">Muhammad Hassan Raza</h1>
-          <div class="section-text-p2">Mobile App Developer</div>
+          <p class="section-text-p2">Mobile App Developer</p>
+          <p class="welcome-text">
+            A curious coder, AI explorer, and Flutter enthusiast on a mission to
+            craft intelligent, high-performance solutions. From writing
+            efficient algorithms to building sleek mobile apps, I love turning
+            ideas into reality with AI, Machine Learning, and cutting-edge
+            development.
+          </p>
           <div class="btn-container">
             <button
-              class="btn btn-color-2"
+              class="btn resume-button"
               onclick="window.open('./assets/Muhammad Hassan Raza.pdf')"
             >
               Download Resume
             </button>
           </div>
+          <div class="socials-container">
+            <img
+              src="./assets/facebook.png"
+              alt="Facebook Profile"
+              class="icon"
+              onclick="window.open('https://www.facebook.com/muhammadhassan03')"
+            />
+            <img
+              src="./assets/instagram.png"
+              alt="Instagram Profile"
+              class="icon"
+              onclick="window.open('https://www.instagram.com/m.hassan.03')"
+            />
+            <img
+              src="./assets/linkedin.png"
+              alt="Linkedin Profile"
+              class="icon"
+              onclick="window.open('https://www.linkedin.com/in/hassandev03')"
+            />
+            <img
+              src="./assets/github.png"
+              alt="Github Profile"
+              class="icon"
+              onclick="window.open('https://www.github.com/hassandev03')"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>

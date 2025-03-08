@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <header>
+      <nav id="desktop-nav">
+        <div class="logo">Muhammad Hassan Raza</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html#skills">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Muhammad Hassan Raza</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li>
+              <a href="projects.html" onclick="toggleMenu()">Projects</a>
+            </li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main-about">
+      <section id="about-me">
+        <div id="section-pic-container">
+          <img src="./assets/profile-pic.jpg" alt="Hassan" />
+        </div>
+        <div class="section-text-about">
+          <p class="about-hi">Hi there!</p>
+          <p class="about-para">
+            Hi, I'm Muhammad Hassan Raza, a passionate Computer Science
+            undergraduate at COMSATS University Islamabad. As an aspiring AI and
+            Flutter Developer, I specialize in Python, Java, C++, Dart, and
+            Flutter, with a keen focus on data structures, algorithms, and
+            object-oriented programming. My development journey has led me to
+            work on projects ranging from AI-driven applications to mobile app
+            development.
+          </p>
+          <p class="about-para">
+            Currently, I'm exploring Machine Learning, Deep Learning, and Large
+            Language Models, alongside mastering Flutter for cross-platform
+            mobile applications. I have hands-on experience with Riverpod for
+            state management and PostgreSQL for database management.
+          </p>
+          <p class="about-para">
+            In addition to my studies, I proudly serve as the App Development
+            Co-Lead at GDGoC, where I contribute to community-driven projects
+            and mentor developers.
+          </p>
+          <p class="about-para">Lets connect!</p>
+          <!-- <div class="btn-container">
+            <button
+              class="resume-btn"
+              onclick="window.open('./assets/Muhammad Hassan Raza.pdf')"
+            >
+              Download Resume
+            </button>
+          </div> -->
+          <div id="about-socials-container">
+            <img
+              src="./assets/facebook.png"
+              alt="Facebook Profile"
+              class="about-social-icon"
+              onclick="window.open('https://www.facebook.com/muhammadhassan03')"
+            />
+            <img
+              src="./assets/instagram.png"
+              alt="Instagram Profile"
+              class="about-social-icon"
+              onclick="window.open('https://www.instagram.com/m.hassan.03')"
+            />
+            <img
+              src="./assets/linkedin.png"
+              alt="Linkedin Profile"
+              class="about-social-icon"
+              onclick="window.open('https://www.linkedin.com/in/hassandev03')"
+            />
+            <img
+              src="./assets/github.png"
+              alt="Github Profile"
+              class="about-social-icon"
+              onclick="window.open('https://www.github.com/hassandev03')"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <p class="section-text-p1">Explore my</p>
+        <h1 class="title skills">Skills</h1>
+        <div class="skill-details-container">
+          <div class="skill-types-container">
+            <div class="details-container">
+              <h2 class="skill-sub-title">Mobile App Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Flutter</h3>
+                  <p>Intermediate</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Dart</h3>
+                  <p>Intermediate</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Firebase</h3>
+                  <p>Basic</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>PostgreSQL</h3>
+                  <p>Intermediate</p>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="skill-sub-title">Artificial Intelligence</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Machine Learning</h3>
+                  <p>Basic</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Deep Learning</h3>
+                  <p>Basic</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Generative AI</h3>
+                  <p>Basic</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>LLMs</h3>
+                  <p>Basic</p>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="skill-sub-title">Other Skills</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Python</h3>
+                  <p>Advanced</p>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill Icon"
+                    class="icon"
+                  />
+                  <h3>Git/GitHub</h3>
+                  <p>Intermediate</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <p class="section-text-p1">Get to know about my</p>
+        <h1 class="title title-about">Education</h1>
+        <div class="education-details-container">
+          <div class="education-types-container">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education logo"
+                class="icon"
+              />
+              <h2 class="education-sub-title">
+                Bachelor's in Computer Science
+              </h2>
+              <div class="degree-article-container">
+                <article class="degree-details">
+                  <h3>COMSATS University Islamabad</h3>
+                  <p>Feb 2023 - 2027</p>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education logo"
+                class="icon"
+              />
+              <h2 class="education-sub-title">
+                Faculty of Sciences in Pre-Engineering
+              </h2>
+              <div class="degree-article-container">
+                <article class="degree-details">
+                  <h3>Dr. Rashad Degree College Khaur</h3>
+                  <p>June 2020 - Sept 2022</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

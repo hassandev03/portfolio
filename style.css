@@ -45,6 +45,7 @@ nav {
 a {
   color: rgb(24, 24, 24);
   text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
@@ -56,6 +57,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-weight: 700;
 }
 
 .logo:hover {
@@ -157,4 +159,311 @@ a:hover {
   transform: none;
 }
 
+/* section */
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
 
+.section-container {
+  display: flex;
+}
+
+/* profile section */
+#profile-section {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+#section-pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+#section-pic-container img {
+  border-radius: 33%;
+}
+
+.section-text {
+  align-self: center;
+  text-align: center;
+}
+
+.section-text p {
+  font-weight: 700;
+}
+
+.section-text-p1 {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-text-p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-text {
+  font-weight: 600;
+  color: rgb(24, 24, 24);
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* icons */
+.icon {
+  cursor: pointer;
+  height: 2.25rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* resume button */
+.btn {
+  font-weight: 700;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  background: rgb(246, 246, 246);
+  font-family: "Nunito", sans-serif;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border: white 0.1rem solid;
+}
+
+/* skills section */
+
+/* skills section tag */
+#skills {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+/* skills class of title */
+.skills {
+  margin-bottom: 1.125rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.skill-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skill-types-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.article-container {
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.75rem;
+  justify-content: space-around;
+}
+
+article {
+  width: 5rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+.skill-sub-title {
+  color: rgb(66, 66, 66);
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+/* about page */
+#about-me {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  height: 80vh;
+  text-align: initial;
+}
+
+.about-hi {
+  color: rgb(40, 40, 40);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title-about {
+  margin-bottom: 1rem;
+}
+
+.section-text-about {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-para {
+  margin-bottom: 0.5rem;
+}
+
+#about-socials-container {
+  margin-top: 0.75rem;
+  display: flex;
+  align-self: flex-start;
+  gap: 1.33rem;
+}
+
+.about-social-icon {
+  cursor: pointer;
+  height: 2.5rem;
+}
+
+#main-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-types-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.25rem;
+}
+
+.degree-article-container {
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem 0rem 0rem 1rem;
+}
+
+.degree-details {
+  width: 100%;
+  flex-wrap: nowrap;
+  align-self: center;
+}
+
+.education-sub-title {
+  font-size: 1.64rem;
+  color: rgb(40, 40, 40);
+}
+
+.degree-details > h3 {
+  color: rgb(53, 53, 53);
+}
+
+#education {
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/* projects page*/
+#projects {
+  height: 80vh;
+  width: 78vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom:; */
+}
+
+.projects-title {
+  padding-bottom: 0.25rem;
+}
+
+.projects-view {
+  align-self: center;
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+}
+
+.project-detail-container {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1.5rem;
+  text-align: initial;
+}
+
+.project-sub-title {
+  color: rgb(54, 53, 53);
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-img {
+  display: flex;
+  height: 25rem;
+  align-self: center;
+  border-radius: 16px;
+}
+
+.project-description {
+  display: flex;
+  width: 20rem;
+  min-width: fit-content;
+  font-weight: 600;
+}
+
+.repo-btn {
+  width: 7rem;
+  height: 2.25rem;
+  text-align: center;
+  padding: 0;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+#cubot-description, #textwise-description{
+  width: 22rem;
+}
