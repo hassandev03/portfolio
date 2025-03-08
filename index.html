@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Muhammad Hassan Raza</title>
+  </head>
+  <body>
+    <header>
+      <nav id="desktop-nav">
+        <div class="logo">Muhammad Hassan Raza</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Muhammad Hassan Raza</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li>
+              <a href="projects.html" onclick="toggleMenu()">Projects</a>
+            </li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="profile">
+      <div class="section-pic-container">
+        <img src="./assets/profile-pic.jpg" alt="Hassan" />
+      </div>
+      <div class="section-text">
+        <div class="section-text">
+          <div class="section-text-p1">Hello, I'm</div>
+          <h1 class="title">Muhammad Hassan Raza</h1>
+          <div class="section-text-p2">Mobile App Developer</div>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Muhammad Hassan Raza.pdf')"
+            >
+              Download Resume
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
