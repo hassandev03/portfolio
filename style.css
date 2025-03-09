@@ -82,8 +82,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
-  margin-bottom: 1.5rem;
+  height: 77vh;
+  margin-bottom: 2.5rem;
 }
 
 #section-pic-container {
@@ -163,6 +163,10 @@ section {
   background-color: rgb(53, 53, 53);
   color: white;
   border: white 0.1rem solid;
+}
+
+.resume-btn {
+  font-size: 0.88rem;
 }
 
 /* skills section */
@@ -370,6 +374,134 @@ article .icon {
   margin-top: 1rem;
 }
 
-#cubot-description, #textwise-description{
+#cubot-description,
+#textwise-description {
   width: 22rem;
+}
+
+/* contact page */
+#contact {
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.contact-section {
+  align-self: center;
+}
+
+.contact-text-p1 {
+  color: rgb(40, 40, 40);
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.contacts-container {
+  margin-bottom: 1rem;
+  margin-top: 1.75rem;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 15vw;
+}
+
+.contact-icon {
+  width: 3rem;
+  margin-bottom: 0.66rem;
+  align-self: center;
+}
+
+.contact-link-head {
+  font-size: 1.5rem;
+  color: rgb(33, 33, 33);
+  margin-bottom: 0.25rem;
+}
+
+.contact-data {
+  font-size: 1.125rem;
+}
+
+.contact-data:hover,
+.contact-link-head:hover {
+  cursor: default;
+}
+
+/* form */
+.contact-title {
+  font-size: 2.5rem;
+  color: rgb(53, 53, 53);
+  margin-bottom: 1.25rem;
+}
+
+.contact-form-container {
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 40vw;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+form label {
+  font-size: 1.33rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: rgb(40, 40, 40);
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 18.5vw;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 0.75em;
+  border: rgb(115, 115, 115) 0.085rem solid;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+form textarea {
+  width: 38vw;
+  height: 28vh;
+  resize: none;
+}
+
+.contact-btn {
+  width: 6rem;
+  height: 2.25rem;
+  padding: 0;
+  align-self: center;
+  font-size: 1rem;
 }
