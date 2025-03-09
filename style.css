@@ -64,101 +64,6 @@ a:hover {
   cursor: default;
 }
 
-/* mobile navigation */
-#hamburger-nav {
-  display: none;
-}
-
-.hamburger-menu {
-  position: relative;
-  display: inline-block;
-}
-
-.hamburger-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 24px;
-  width: 30px;
-  cursor: pointer;
-}
-
-.hamburger-icon span {
-  height: 2px;
-  width: 100%;
-  background-color: rgb(24, 24, 24);
-  transition: all 0.3 ease-in-out;
-}
-
-.menu-links {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: white;
-  width: fit-content;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3 ease-in-out;
-}
-
-.menu-links a {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  font-size: 1.5rem;
-  color: rgb(24, 24, 24);
-  text-decoration: none;
-  transition: all 0.3 ease-in-out;
-}
-
-.menu-links li {
-  list-style: none;
-}
-
-.menu-links.open {
-  max-height: 300px;
-}
-
-.hamburger-icon.open span:first-child {
-  transform: rotate(45deg) translate(10px, 5px);
-}
-
-.hamburger-icon.open span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger-icon.open span:nth-child(3) {
-  opacity: 0;
-}
-
-.hamburger-icon.open span:nth-child(4) {
-  opacity: 0;
-}
-
-.hamburger-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:nth-child(2) {
-  opacity: 1;
-}
-
-.hamburger-icon span:nth-child(3) {
-  opacity: 1;
-}
-
-.hamburger-icon span:nth-child(4) {
-  opacity: 1;
-}
-
-.hamburger-icon span:last-child {
-  transform: none;
-}
-
 /* section */
 section {
   padding-top: 4vh;
@@ -178,6 +83,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin-bottom: 1.5rem;
 }
 
 #section-pic-container {
@@ -303,10 +209,11 @@ section {
   flex-direction: row;
   gap: 2.75rem;
   justify-content: space-around;
+  min-width: 22.5vw;
 }
 
 article {
-  width: 5rem;
+  width: 6rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
@@ -404,12 +311,12 @@ article .icon {
 /* projects page*/
 #projects {
   height: 80vh;
-  width: 78vw;
+  width: 76.5vw;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  /* margin-bottom:; */
+  margin-bottom: 2rem;
 }
 
 .projects-title {
@@ -418,13 +325,12 @@ article .icon {
 
 .projects-view {
   align-self: center;
-  width: 95vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
   flex-wrap: wrap;
-  overflow-x: scroll;
 }
 
 .project-detail-container {
@@ -450,7 +356,7 @@ article .icon {
 
 .project-description {
   display: flex;
-  width: 20rem;
+  width: 18rem;
   min-width: fit-content;
   font-weight: 600;
 }
