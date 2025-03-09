@@ -328,8 +328,9 @@ article .icon {
 }
 
 .projects-view {
+  align-items: center;
   align-self: center;
-  width: 90vw;
+  width: 93vw;
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -339,7 +340,7 @@ article .icon {
 
 .project-detail-container {
   display: flex;
-  gap: 3rem;
+  gap: 2.5rem;
   margin-top: 1.5rem;
   text-align: initial;
 }
@@ -353,14 +354,16 @@ article .icon {
 
 .project-img {
   display: flex;
-  height: 25rem;
+  height: 24.5rem;
   align-self: center;
   border-radius: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 .project-description {
   display: flex;
-  width: 18rem;
+  width: 17rem;
   min-width: fit-content;
   font-weight: 600;
 }
@@ -411,7 +414,7 @@ article .icon {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 15vw;
+  width: 17vw;
 }
 
 .contact-icon {
